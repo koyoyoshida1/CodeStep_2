@@ -1,0 +1,15 @@
+#index  {
+  background-color: $white;
+  margin: 0 10% 5% 10%;
+
+  .item {
+    display: block;
+    ol {
+      margin-left: 3%;
+
+      li {
+        margin-bottom: 2%;
+      }
+    }
+  }
+}

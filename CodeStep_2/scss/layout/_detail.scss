@@ -1,0 +1,45 @@
+.detail{ 
+  &_item {
+    margin: 5% 25% 5% 25%;
+    padding: 5% 0;
+  }
+
+  &_box {
+    display: flex;
+    align-items: flex-start;
+    // display flexの上部や下部、高さに合わせて自動調節が可能
+    // imgの高さに合わせてtxtを上部に配置する。
+    img {
+      width: 45%;
+      margin-right: 10%;
+    }
+
+    &_txt {
+
+      p {
+        margin-bottom: 5%;
+      }
+
+      dl {
+        display: flex;    // dtとddを横並びにする
+        flex-wrap: wrap;  // dtとddが100%になったら横並びを繰り返す
+        padding: 5% 0;
+        margin-bottom: 5%;
+        border-top: solid 1px $gray;
+        border-bottom: solid 1px $gray;
+      }
+
+      dt {
+        width: 25%;
+      }
+
+      dd {
+        width: 75%;
+      }
+
+      a:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

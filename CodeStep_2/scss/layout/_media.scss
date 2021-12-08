@@ -1,0 +1,113 @@
+@media screen and (max-width: 1267px){
+  .detail_item {
+    margin: 5% 10% 5% 25%;
+  }  
+}
+
+@media screen and (max-width: 1175px){
+  .item {
+    margin: 5% 15% 5% 25%;
+  }
+}
+
+
+// スマホ用の画面の作成
+@media screen and (max-width:1024px) {
+  header {
+    margin: 5% 1% 0;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  .inner {
+    margin: 0 1%;
+  }
+
+  #index {
+    margin: 10% 0;
+
+    .item {
+      margin: 0 23%;
+      text-align: center;
+    }
+  }
+
+  .detail{
+    &_item {
+    margin: 5% 1% 5%;
+    text-align: center;
+  }
+
+    &_box {
+      flex-direction: column;  /* 縦並びにする */
+      
+      img {
+        width: 100%;
+        margin-right: 0;
+      }
+      &_txt {
+        width: 100%;
+        p {
+          margin-top: 5%;
+        }
+      }
+    }
+  }
+
+  footer {
+    text-align: center;
+    margin: 1% 0;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  #index{
+    .item {
+      margin: 0 20%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 783px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  body {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  #index{
+    .item {
+      margin: 0 15%;
+    }
+  }
+}
+
+@media screen and (max-width: 466px) {
+  #index {
+    .item {
+      margin: 0 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 362px) {
+  #index {
+    .item {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 326px) {
+}
+
+

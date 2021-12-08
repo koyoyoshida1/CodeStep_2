@@ -1,0 +1,18 @@
+.inner {
+  margin: 0 10% 5% 10%;
+}
+
+.ttl {
+  margin-bottom: 2%;
+  font-size: 1.25rem;
+  
+  &_sub {
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}
+
+.item {
+  margin: 5% 25%;
+  padding: 5% 0;
+}
